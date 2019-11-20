@@ -22,6 +22,7 @@ if (isset($_GET['add_to_cart'])) {
             } else {
                 setcookie('cake32', $_COOKIE['cake32'] + 1, 0);
             }
+
             break;
         case 46:
             if (!isset($_COOKIE['cake46'])) {
